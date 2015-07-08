@@ -6,8 +6,10 @@ TBD
 
 # Introduction
 
+Joe's journey:
+
 [☕ J. B. Rainsberger ‏@jbrains  Jul 1](https://twitter.com/jbrains/status/616228270841962496):
-> Junior programmer's bookshelf: 90% APIs and programming languages;
+> Junior programmer's bookshelf: 90% APIs and programming languages;  
 > Senior programmer's bookshelf: 80% applied psychology.
 
 TBD
