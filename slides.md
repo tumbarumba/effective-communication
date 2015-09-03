@@ -18,9 +18,19 @@ TBD
 
 TBD
 
-# The Rules
+# The Anti-Behaviours
+- Unclear views and rhetorical questions
+- Hide negative information
+- Be vague and ambiguous
+- Give solutions without explaination
+- Argue for your own position
+- Jump to conclusions
+- Decide next steps without consultation
+- Avoid taboos
 
-## Rule 1: State Views and Ask Genuine Questions
+# The Behaviours
+
+## Behaviour 1: State Views and Ask Genuine Questions
 
 * Dialog demo
 * Observations?
@@ -29,7 +39,7 @@ TBD
 * Attempt dialog with rule 1 by participants
 * Demonstrate rule 1 in action
 
-## Rule 2...8
+## Behaviour 2...8
 
 TBD
 
