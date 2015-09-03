@@ -19,11 +19,12 @@ TBD
 TBD
 
 # The Anti-Behaviours
-- Unclear views and rhetorical questions
+- Don't explain views
+- Ask rhetorical questions
 - Hide negative information
 - Be vague and ambiguous
 - Give solutions without explaination
-- Argue for your own position
+- Argue for your own position, argue against opposing positions
 - Jump to conclusions
 - Decide next steps without consultation
 - Avoid taboos
