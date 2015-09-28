@@ -182,12 +182,24 @@ a:focus {
     display: block;
     font-size: 50px;
     line-height: 72px;
-
     margin-top: 100px;
 }
 
 .slide q strong {
     white-space: nowrap;
+}
+
+.slide li {
+    list-style: disc inside;
+    padding-left: 1em;
+    text-indent: -1em;
+    padding-top: 1em;
+}
+
+.slide h2 {
+    font-size: 70px;
+    line-height: 72px;
+    margin-top: 80px;
 }
 
 /*
@@ -220,6 +232,29 @@ a:focus {
 
 .fellowship h2 {
     font-size: 30px;
+    margin-top: 0;
+}
+
+.schedule li {
+    list-style-type: none;
+    padding-left: 2em;
+}
+
+.schedule li.next {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 1em;
+}
+
+#thinking q {
+    margin-top: 10px;
+}
+
+#thinking img {
+    margin: 1em 0 1em 1em;
 }
 
 
