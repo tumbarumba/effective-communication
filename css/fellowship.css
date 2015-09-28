@@ -143,7 +143,10 @@ a:focus {
 
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.1;
+    /*
+    opacity: 0.3;
+    */
+    opacity: 0;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
@@ -190,13 +193,13 @@ a:focus {
 /*
     Fellowship of the Ring
 */
-#fellowship {
+.fellowship {
     background: url(../img/middle-earth.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
 }
 
-#fellowship .banner {
+.fellowship .banner {
     background-color: black;
     text-align: center;
     color: white;
@@ -204,63 +207,22 @@ a:focus {
     line-height: 1.25;
 }
 
-#fellowship .bottom {
+.fellowship .bottom {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-#fellowship h1 {
+.fellowship h1 {
     font-size: 50px;
 }
 
-#fellowship h2 {
+.fellowship h2 {
     font-size: 30px;
 }
 
 
-/*
-    And now we start to style each step separately.
-
-    I agree that this may be not the most efficient, object-oriented and
-    scalable way of styling, but most of steps have quite a custom look
-    and typography tricks here and there, so they had to be styled separately.
-
-    First is the title step with a big <h1> (no room for padding) and some
-    3D positioning along Z axis.
-*/
-
-#title {
-    padding: 0;
-}
-
-#title .try {
-    font-size: 64px;
-    position: absolute;
-    top: -0.5em;
-    left: 1.5em;
-
-    -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
-}
-
-#title h1 {
-    font-size: 190px;
-
-    -webkit-transform: translateZ(50px);
-    -moz-transform:    translateZ(50px);
-    -ms-transform:     translateZ(50px);
-    -o-transform:      translateZ(50px);
-    transform:         translateZ(50px);
-}
-
-#title .footnote {
-    font-size: 32px;
-}
 
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
