@@ -243,6 +243,11 @@ a:focus {
     padding-bottom: 0.5em;
 }
 
+.schedule {
+    position: relative;
+    background: black;
+}
+
 .schedule li {
     list-style-type: none;
     padding-left: 2em;
@@ -254,20 +259,23 @@ a:focus {
     color: white;
 }
 
+.schedule .screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -10;
+}
+
 #schedule-1 {
     position: relative;
     background: black;
 }
 
 #schedule-1 .screen {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     background: url(../img/OneRing.jpg) bottom right no-repeat;
     background-size: 50%;
-    z-index: -10;
 }
 
 #wikipedia-biases img,
@@ -284,6 +292,28 @@ a:focus {
 #thinking img {
     margin: 1em 0 1em 1em;
     height: 80%;
+}
+
+.consequences {
+    font-size: 20px;
+}
+
+.consequences q {
+    margin-top: 0;
+}
+
+.consequences strong {
+    display: block;
+    margin-top: 1em;
+}
+
+.consequences li {
+    padding-top: 0.25em;
+}
+
+#schedule-2 .screen {
+    background: url(../img/GandalfResearching.jpg) bottom right no-repeat;
+    background-size: 50%;
 }
 
 
