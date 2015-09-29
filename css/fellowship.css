@@ -217,6 +217,9 @@ a:focus {
     color: white;
     padding: 20px;
     line-height: 1.25;
+    border: 1px solid black;
+    border-radius: 10px;
+
 }
 
 .fellowship .bottom {
@@ -224,6 +227,7 @@ a:focus {
     bottom: 0;
     left: 0;
     right: 0;
+    border-radius: 0;
 }
 
 .fellowship h1 {
@@ -235,6 +239,10 @@ a:focus {
     margin-top: 0;
 }
 
+.schedule h2 {
+    padding-bottom: 0.5em;
+}
+
 .schedule li {
     list-style-type: none;
     padding-left: 2em;
@@ -244,19 +252,39 @@ a:focus {
     font-weight: bold;
     background-color: black;
     color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding-bottom: 1em;
+}
+
+#schedule-1 {
+    position: relative;
+    background: black;
+}
+
+#schedule-1 .screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/OneRing.jpg) bottom right no-repeat;
+    background-size: 50%;
+    z-index: -10;
+}
+
+#wikipedia-biases img,
+#bi-biases img {
+    height: 60%;
+    display: block;
+    margin: 10px auto 0;
 }
 
 #thinking q {
     margin-top: 10px;
 }
-
+ 
 #thinking img {
     margin: 1em 0 1em 1em;
+    height: 80%;
 }
-
 
 
 /*
