@@ -255,7 +255,6 @@ a:focus {
 
 .schedule li.next {
     font-weight: bold;
-    background-color: black;
     color: white;
 }
 
@@ -313,6 +312,11 @@ a:focus {
 
 #schedule-2 .screen {
     background: url(../img/GandalfResearching.jpg) bottom right no-repeat;
+    background-size: 50%;
+}
+
+#schedule-3 .screen {
+    background: url(../img/FingolfinMelkorFight.jpg) bottom right no-repeat;
     background-size: 50%;
 }
 
