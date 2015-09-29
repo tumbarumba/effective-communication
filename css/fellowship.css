@@ -193,10 +193,17 @@ p {
 }
 
 .slide li {
-    list-style: disc inside;
     padding-left: 1em;
     text-indent: -1em;
     padding-top: 1em;
+}
+
+.slide ul > li {
+    list-style: disc inside;
+}
+
+.slide ol > li {
+        list-style: decimal inside;
 }
 
 .slide h2 {
@@ -326,6 +333,14 @@ p {
 #schedule-4 .screen {
     background: url(../img/council.jpg) bottom right no-repeat;
     background-size: 50%;
+}
+
+#eight-behaviours q {
+    margin-top: 0;
+}
+
+#eight-behaviours div {
+    width: 48%;
 }
 
 #schedule-5 .screen {
