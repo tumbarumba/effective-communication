@@ -345,6 +345,16 @@ p {
     background-size: 50%;
 }
 
+.paula-and-ted q {
+    margin: 0 0 10px;
+}
+
+.paula-and-ted img {
+    height: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
 #schedule-4 .screen {
     background: url(../img/council.jpg) bottom right no-repeat;
     background-size: 50%;
@@ -356,6 +366,12 @@ p {
 
 #eight-behaviours div {
     width: 48%;
+}
+
+#eight-behaviours .footnote {
+    font-size: 16px;
+    line-height: 20px;
+    float: right;
 }
 
 #schedule-5 .screen {
@@ -375,21 +391,25 @@ p {
     margin: 0 auto;
 }
 
-#happy-journey {
+#happy-journey,
+#about-me {
     background-color: black;
     color: white;
 }
 
-#happy-journey .photo {
+#happy-journey .photo,
+#about-me .photo {
     display: inline-block;
     background-color: white;
 }
 
-#happy-journey p {
+#happy-journey p,
+#about-me p {
     margin-top: 0.5em;
 }
 
-#happy-journey img {
+#happy-journey img,
+#about-me img {
     display: block;
     padding: 10px;
 }
