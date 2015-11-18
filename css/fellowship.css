@@ -263,24 +263,15 @@ p {
     padding: 10px;
 }
 
-.schedule h2 {
-    padding-bottom: 0.5em;
-}
-
 .schedule {
     position: relative;
     background: black;
     color: #ccc;
 }
 
-.schedule li {
-    list-style-type: none;
-    padding-left: 2em;
-}
-
-.schedule li.next {
-    font-weight: bold;
-    color: white;
+.schedule img {
+    display: block;
+    margin: 50px auto 0;
 }
 
 .schedule .screen {
@@ -290,16 +281,6 @@ p {
     bottom: 0;
     left: 0;
     z-index: -10;
-}
-
-#schedule-1 {
-    position: relative;
-    background: black;
-}
-
-#schedule-1 .screen {
-    background: url(../img/OneRing.jpg) bottom right no-repeat;
-    background-size: 50%;
 }
 
 #wikipedia-biases img,
@@ -335,16 +316,6 @@ p {
     padding-top: 0.25em;
 }
 
-#schedule-2 .screen {
-    background: url(../img/GandalfResearching.jpg) bottom right no-repeat;
-    background-size: 50%;
-}
-
-#schedule-3 .screen {
-    background: url(../img/FingolfinMelkorFight.jpg) bottom right no-repeat;
-    background-size: 50%;
-}
-
 .paula-and-ted q {
     margin: 0 0 10px;
 }
@@ -353,11 +324,6 @@ p {
     height: 80%;
     display: block;
     margin: 0 auto;
-}
-
-#schedule-4 .screen {
-    background: url(../img/council.jpg) bottom right no-repeat;
-    background-size: 50%;
 }
 
 #eight-behaviours q {
@@ -372,11 +338,6 @@ p {
     font-size: 16px;
     line-height: 20px;
     float: right;
-}
-
-#schedule-5 .screen {
-    background: url(../img/GandalfWalking.jpg) bottom right no-repeat;
-    background-size: 50%;
 }
 
 #end-of-the-journey {
