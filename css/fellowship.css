@@ -283,6 +283,12 @@ p {
     z-index: -10;
 }
 
+#muller-lyer img {
+    display: block;
+    margin: 50px auto 0;
+}
+
+
 #wikipedia-biases img,
 #bi-biases img {
     height: 60%;
@@ -314,6 +320,18 @@ p {
 
 .consequences li {
     padding-top: 0.25em;
+}
+
+#model-1-consequences-explosion {
+    background-image: url(../img/atomic-explosion.jpg);
+    background-size: cover;
+    color: black;
+}
+
+#model-2-consequences-tranquility {
+    background-image: url(../img/tranquility.jpg);
+    background-size: cover;
+    color: black;
 }
 
 .paula-and-ted q {
@@ -353,24 +371,24 @@ p {
 }
 
 #happy-journey,
-#about-me {
+.about-me {
     background-color: black;
     color: white;
 }
 
 #happy-journey .photo,
-#about-me .photo {
+.about-me .photo {
     display: inline-block;
     background-color: white;
 }
 
 #happy-journey p,
-#about-me p {
+.about-me p {
     margin-top: 0.5em;
 }
 
 #happy-journey img,
-#about-me img {
+.about-me img {
     display: block;
     padding: 10px;
 }
