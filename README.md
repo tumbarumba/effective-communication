@@ -18,3 +18,10 @@ It's not all lost, though! There are a number of techniques and skills we can us
 * **5 Secrets of Effective Communcation**
 
 At the end of this talk, you will understand the causes of ineffective communcation, along with different models for better and more effective communication. The practice is up to you!
+
+Find these slides online at [http://tumbarumba.github.io/effective-communication/frustrated.html](http://tumbarumba.github.io/effective-communication/frustrated.html). These slides are authored using [reveal.js](https://revealjs.com/), which has the following controls:
+* `<space>`, `<right arrow>`: next slide or fragment
+* arrow keys: forward, back, up, down
+* `<esc>`, `O`: toggle overview mode
+* `F`: fullscreen
+* `S`: open speaker window
