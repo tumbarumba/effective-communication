@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Effective Communication</title>
+
+    <meta name="author" content="Joe Schmetzer">
+    <meta name="description" content="A talk on effectivce communication">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <style type="text/css">
+        .reveal > .footer {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3em;
+            font-size: 30px;
+            text-align: center;
+            background-color: #ddd;
+            border-top: 1px solid #aaa;
+            z-index: 3;
+        }
+
+        .reveal .footer p {
+            padding: 10px;
+            line-height: 1;
+        }
+
+        .reveal .upcoming-slide iframe .footer {
+            display: none;
+        }
+
+        .reveal > .slides section {
+            margin-bottom: 130px; // leave room for footer
+        }
+
+        .reveal > .slides section.slide-with-background {
+            background-color: rgba(255, 255, 255, 0.75);
+            border-radius: 20px;
+        }
+
+        .section-header {
+            line-height: 2em !important;
+        }
+        .section-header > ol > li { color: #999; }
+        .section-header > ol > li.active { color: #000; font-size: larger; }
+
+        #title h1 { font-size: 1.5em; }
+        #title h2 { font-size: 1.2em; }
+        #thinking img { max-width: 30%; }
+        #biases-codex img { max-width: 75%; }
+    </style>
+
+    <!--[if lt IE 9]>
+    <script src="reveal.js/js/html5shiv.js"></script>
+    <![endif]-->11
+</head>
+<body>
+<div class="reveal">
+    <div class="footer">
+        <p><span class="footer-title">Effective Communication</span> &bullet; Joe Schmetzer &bullet; <a href="https://twitter.com/tumbarumba">@tumbarumba</a></p>
+    </div>
+    <div class="slides">
+        <section id="title" class="slide-with-background" data-background-image="images/vader-choke.jpg" data-state="topright">
+            <h1>Frustrated? It's probably your fault!</h1>
+            <h2>Effective Communication<br>
+                with the Mutual Learning Model</h2>
+            <aside class="notes">
+                <p>No notes in the introduction...</p>
+            </aside>
+        </section>
+        <section id="whoami">
+            <h2>Who Am I?</h2>
+            <aside class="notes">
+                <ul>
+                    <li>Joe Schmetzer (in the physical world)</li>
+                    <li>@tumbarumba (on Twitter)</li>
+                    <li>Developer Advocate in Molecular</li>
+                    <li>Lean, agile, human systems</li>
+                    <li>London, banking, XTC, mentoring, etc</li>
+                </ul>
+            </aside>
+        </section>
+        <section id="biases-and-distortions">
+            <section id="progress1">
+                <h2>Topics</h2>
+                <ul>
+                    <li><strong>Biases and Distortions</strong></li>
+                    <li>Goals and Values</li>
+                    <li>Analysing an Interaction</li>
+                    <li>8 Behaviours for Mutual Learning</li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+            <section id="you-suck">
+                <h2>Effective Communication</h2>
+                <h3>You probably suck at it</h3>
+                <h3>... and you don't realise it</h3>
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="muller-lyer">
+                <h2>Müller-Lyer Illusion</h2>
+                <img src="images/mullerlyer-illusion.gif" alt="Muller-Lyer Illusion">
+                <aside class="notes">
+                    <ul>
+                        <li>Example of a bias in the brain's visual processing</li>
+                        <li>The brain is full of other predictable errors</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="thinking">
+                <h2>Thinking, Fast and Slow</h2>
+                <img src="images/thinking-cover.jpg">
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="thinking-systems">
+                <h2>Thinking Systems</h2>
+                <ul>
+                    <li><strong>System 1</strong>: fast, involuntary, no effort, biased</li>
+                    <li><strong>System 2</strong>: slow, voluntary, effortful, lazy</li>
+                    <li>Most of what you think and do originates in System 1 with System 2
+                        called upon to prevent errors</li>
+                    <li>The error prevention sucks</li>
+                    <li>This is a major cause of conflict between people</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="biases">
+                <h2>Cognitive Biases</h2>
+                <ul>
+                    <li>There are hundreds of them!</li>
+                    <li>For example...
+                        <ul>
+                            <li>Illusion of asymmetric insight</li>
+                            <li>Illusion of transparency</li>
+                            <li>Self-serving bias</li>
+                            <li>Confirmation bias</li>
+                        </ul>
+                    </li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>Asymmetric insight: I know more about you than you know about me</li>
+                        <li>Transparency: my feelings are obvious to you, your feelings are obvious to me</li>
+                        <li>Self-serving: successes are due to me, failures are other people's fault</li>
+                        <li>Confirmation: you notice stuff you believe in, ignore the stuff you don't</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="biases-codex">
+                <img src="images/cognitive-biases-codex.jpg">
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+        <section id="goals-and-values">
+            <section id="progress2">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li><strong>Goals and Values</strong></li>
+                    <li>Analysing an Interaction</li>
+                    <li>8 Behaviours for Mutual Learning</li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+        </section>
+        <section id="analysing-an-interaction">
+            <section id="progress3">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li>Goals and Values</li>
+                    <li><strong>Analysing an Interaction</strong></li>
+                    <li>8 Behaviours for Mutual Learning</li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+        </section>
+        <section id="8-behaviours">
+            <section id="progress4">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li>Goals and Values</li>
+                    <li>Analysing an Interaction</li>
+                    <li><strong>8 Behaviours for Mutual Learning</strong></li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+        </section>
+        <section id="practicing-interactions">
+            <section id="progress5">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li>Goals and Values</li>
+                    <li>Analysing an Interaction</li>
+                    <li>8 Behaviours for Mutual Learning</li>
+                    <li><strong>Practicing Interactions</strong></li>
+                </ul>
+            </section>
+        </section>
+        <section id="fin" class="slide-with-background" data-background-image="images/leia-giving-medals.jpg">
+            <h2>Fin</h2>
+            <p>Any questions?</p>
+        </section>
+    </div>
+</div>
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
+<script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'fade',
+            backgroundTransition: 'fade',
+            controlsLayout: 'edges',
+
+            // Optional reveal.js plugins
+            dependencies: [
+                { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+                { src: 'reveal.js/plugin/notes/notes.js', async: true }
+            ]
+        });
+    </script>
+</body>
+</html>
