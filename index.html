@@ -2,506 +2,573 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>The Fellowship of the Ring: Personal Leadership Towards Joyful Work</title>
-    
-    <meta name="description" content="Presentation on the mutual learning model, and why it is useful" />
-    <meta name="author" content="Joe Schmetzer" />
+    <title>Effective Communication</title>
 
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-    <link href="css/fellowship.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta name="author" content="Joe Schmetzer">
+    <meta name="description" content="A talk on effectivce communication">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <style type="text/css">
+        .reveal > .footer {
+            position: absolute;
+            padding: 0;
+            margin: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3em;
+            font-size: 30px;
+            text-align: center;
+            background-color: #ddd;
+            border-top: 1px solid #aaa;
+            z-index: 3;
+        }
+
+        .reveal .footer p {
+            padding: 10px;
+            line-height: 1;
+        }
+
+        .reveal .upcoming-slide iframe .footer {
+            display: none;
+        }
+
+        .reveal > .slides section {
+            margin-bottom: 130px; // leave room for footer
+        }
+
+        .reveal > .slides section.slide-with-background {
+            background-color: rgba(255, 255, 255, 0.75);
+            border-radius: 20px;
+        }
+
+        .section-header {
+            line-height: 2em !important;
+        }
+        .section-header > ol > li { color: #999; }
+        .section-header > ol > li.active { color: #000; font-size: larger; }
+
+        .muted {
+            color: #999 !important;
+        }
+
+        #title h1 { font-size: 1.5em; }
+        #title h2 { font-size: 1.2em; }
+        #thinking img { max-width: 30%; }
+        #biases-codex img { max-width: 75%; }
+    </style>
+
+    <!--[if lt IE 9]>
+    <script src="reveal.js/js/html5shiv.js"></script>
+    <![endif]-->
 </head>
-
-<body class="impress-not-supported">
-
-<div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+<body>
+<div class="reveal">
+    <div class="footer">
+        <p><span class="footer-title">Effective Communication</span> &bullet; Joe Schmetzer &bullet; <a href="https://twitter.com/tumbarumba">@tumbarumba</a></p>
+    </div>
+    <div class="slides">
+        <section id="title" class="slide-with-background" data-background-image="images/vader-choke.jpg" data-state="topright">
+            <h1>Effective Communication</h1>
+            <aside class="notes">
+                <p>No notes in the introduction...</p>
+            </aside>
+        </section>
+        <section id="whoami">
+            <h2>Who Am I?</h2>
+            <ul>
+                <li class="fragment">Joe Schmetzer</li>
+                <li class="fragment">Blog: <a href="https://exubero.com/">exubero.com</a></li>
+                <li class="fragment">Twitter: <a href="https://twitter.com/tumbarumba">@tumbarumba</a></li>
+                <li class="fragment">Generalising Specialist</li>
+            </ul>
+            <aside class="notes">
+                <ul>
+                    <li>Joe Schmetzer (in the physical world)</li>
+                    <li>@tumbarumba (on Twitter)</li>
+                    <li>Software by people for people</li>
+                    <li>Lean, agile, teams, communication, culture</li>
+                    <li>London, banking, XTC, mentoring, etc</li>
+                </ul>
+            </aside>
+        </section>
+        <section id="conclusions">
+            <h2>Conclusions</h2>
+            <ul>
+                <li class="fragment">Our minds generate the illusion of certainty</li>
+                <li class="fragment">We have been conditioned to act as though the illusion is certainty</li>
+                <li class="fragment">Our lack of skills in navigating our mutual illusions creates suffering</li>
+                <li class="fragment">We have the option to learn to do better</li>
+            </ul>
+            <aside class="notes">
+                <li>Quoted from Jeff Fredrick, in his talk "<a href="https://vimeo.com/131854234">Frustrated, It's
+                    Probably your Fault</a>"</li>
+            </aside>
+        </section>
+        <section>
+            <section id="biases-and-distortions">
+                <h2>Topics</h2>
+                <ul>
+                    <li><strong>Biases and Distortions</strong></li>
+                    <li>Action Science</li>
+                    <li>Non Violent Communication</li>
+                    <li>5 Secrets of Effective Communication</li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+            <section id="ames-room" data-background="images/Two-People-Stand-Ames-Room.jpg" data-background-size="contain">
+                <aside class="notes">
+                    <ul>
+                        <li>Ames room</li>
+                        <li>Image copyright <a href="https://www.flickr.com/photos/silly_little_man/5132242358/">Ian Stannard</a></li>
+                        <li>Our brains generate a perception of reality that might not actually be correct</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="biases">
+                <h2>Cognitive Biases</h2>
+                <ul>
+                    <li class="fragment">Illusion of asymmetric insight</li>
+                    <li class="fragment">Illusion of transparency</li>
+                    <li class="fragment">Self-serving bias</li>
+                    <li class="fragment">Confirmation bias</li>
+                    <li class="fragment">... and hundreds more...</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>Asymmetric insight: I know more about you than you know about me</li>
+                        <li>Transparency: my feelings are obvious to you, your feelings are obvious to me</li>
+                        <li>Self-serving: successes are due to me, failures are other people's fault</li>
+                        <li>Confirmation: you notice stuff you believe in, ignore the stuff you don't</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="biases-codex" data-background="images/cognitive-biases-codex.jpg" data-background-size="contain">
+                <aside class="notes">
+                    <ul>
+                        <li><a href="https://medium.com/better-humans/cognitive-bias-cheat-sheet-55a472476b18">Cognitive biases codex</a></li>
+                        <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">List of Cognitive Biases</a></li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="thinking-fast-and-slow">
+                <h2>Thinking, Fast and Slow</h2>
+                <img src="images/thinking-cover.jpg">
+                <aside class="notes">
+                    <ul>
+                        <li>Danial Kahneman, based on original research, often with collaboration with
+                            Amos Tversky</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="thinking-systems">
+                <h2>Kahneman's Thinking Systems</h2>
+                <ul>
+                    <li class="fragment"><strong>System 1</strong>: fast, involuntary, no effort, biased</li>
+                    <li class="fragment"><strong>System 2</strong>: slow, voluntary, effortful, lazy</li>
+                    <li class="fragment">Most of what you think and do originates in System 1 with System 2
+                        called upon to prevent errors</li>
+                    <li class="fragment">The error prevention sucks</li>
+                    <li class="fragment">This is a major cause of conflict between people</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>WYSIATI (what you see is all there is)</li>
+                        <li>Availability heuristic: if you can easily think of it, it's probably true</li>
+                        <li>Coherence</li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+        <section>
+            <section id="action-science">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li><strong>Action Science</strong></li>
+                    <li>Non Violent Communication</li>
+                    <li>5 Secrets of Effective Communication</li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+            <section id="action-science-overview">
+                <h2>Action Science</h2>
+                <ul>
+                    <li>Research of Chris Agyris between 1957 and 2004</li>
+                    <li>The study of how human beings design their actions in difficult situations</li>
+                    <li>Feedback loops based on ladder of inference, double loop learning</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="ladder-of-inference" data-background="images/ladder_of_inference.png" data-background-size="contain">
+                <aside class="notes">
+                    <ul>
+                        <li>Example:
+                            <ul>
+                                <li><b>Observation</b>: one committee member is looking at his phone and not
+                                    contributing to the meeting</li>
+                                <li><b>Add meaning</b>: when someone doesn't contribute it means that they
+                                    don't care</li>
+                                <li><b>Assumptions</b>: if people don't care, they shouldn't be invited to future
+                                    meetings</li>
+                                <li><b>Actions</b>: I will not invite Joe to future meetings</li>
+                            </ul>
+                        </li>
+                        <li>This is a <b>coherent</b> story when can easily think, therefore we quickly
+                            jump to the assumption that it is true.</li>
+                        <li><b>Coherence busting</b> to the rescue!</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="agyris-models">
+                <h2>Agyris's Models</h2>
+                <ul>
+                    <li>Unilateral Control Model</li>
+                    <li>Mutual Learning Model</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>Espoused theory versus theory in use</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="unilateral-control-values">
+                <h2>Unilateral Control: Values</h2>
+                <ul>
+                    <li class="fragment">Win, don’t lose</li>
+                    <li class="fragment">Be right</li>
+                    <li class="fragment">Minimise expressions of negative feelings</li>
+                    <li class="fragment">Act rational</li>
+                </ul>
+                <aside class="notes">
+                    Assumptions:
+                    <ul>
+                        <li>I understand the situation; those who disagree don’t</li>
+                        <li>I am right; those who disagree are wrong</li>
+                        <li>I have pure motives; those who disagree have questionable motives</li>
+                        <li>My feelings and behaviour are justified</li>
+                        <li>I am not contributing to the problem</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="unilateral-control-outcomes">
+                <h2>Unilateral Control: Outcomes</h2>
+                <ul>
+                    <li class="fragment">Ineffective working relationships</li>
+                    <li class="fragment">Lower performance</li>
+                    <li class="fragment">Reduced well-being</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>Relationships: Lower commitment, Decreased trust, Reduced learning, Greater defensiveness,
+                            Unproductive conflict, Inappropriate dependence on others</li>
+                        <li>Performance: Lower-quality decisions, Less innovation, Longer implementation time,
+                            Increased costs</li>
+                        <li>Individual Well-Being: Reduced motivation, Decreased satisfaction, Limited development
+                            opportunities, Increased stress</li>
+                        <li>Theory X</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="mutual-learning-values">
+                <h2>Mutual Learning: Values</h2>
+                <ul>
+                    <li class="fragment">Transparency</li>
+                    <li class="fragment">Curiosity</li>
+                    <li class="fragment">Informed choice</li>
+                    <li class="fragment">Accountability</li>
+                    <li class="fragment">Compassion</li>
+                </ul>
+                <aside class="notes">
+                    Assumptions:
+                    <ul>
+                        <li>I have information; so do other people</li>
+                        <li>Each of us sees things others don’t</li>
+                        <li>People may disagree with me and still have pure motives</li>
+                        <li>Differences are opportunities for learning</li>
+                        <li>I may be contributing to the problem</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="mutual-learning-outcomes">
+                <h2>Mutual Learning: Outcomes</h2>
+                <ul>
+                    <li class="fragment">Effective working relationships</li>
+                    <li class="fragment">Improved performance</li>
+                    <li class="fragment">Improved well-being</li>
+                </ul>
+                <aside class="notes">
+                    <ul>
+                        <li>Relationships:
+                            Greater commitment,
+                            Increased trust,
+                            Increased learning,
+                            Reduced defensiveness,
+                            Productive conflict,
+                            Appropriate dependence on others
+                        </li>
+                        <li>Performance:
+                            Higher-quality decisions,
+                            Greater innovation,
+                            Shorter implementation time,
+                            Reduced costs
+                        </li>
+                        <li>Individual Well-Being:
+                            Increased motivation,
+                            Increased satisfaction,
+                            Richer development opportunities,
+                            Reduced stress
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="roger-schwarz">
+                <h2>8 Behaviours for Mutual Learning</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>Whitepaper by Roger Schwarz: <a href="https://www.csu.edu.au/__data/assets/pdf_file/0008/917018/Eight-Behaviors-for-Smarter-Teams-2.pdf">
+                            8 Behaviors for Leading a Smarter Team</a></li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-1">
+                <h3 class="muted">Behaviour 1</h3>
+                <h2>State views and ask genuine questions</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>e.g. I think it would be helpful if we started with 2-3 key customers so that we
+                            can see how it works and eliminate any problems before they come up. What are your
+                            thoughts about starting with a small group?</li>
+                        <li>You question <em>needs</em> to be genuine. e.g. "Do you really think that will
+                            work?" is <em>not</em> genuine, because it has an embedded assumption that you think
+                            it won't work.</li>
+                        <li>You can convert it to a genuine question by stating your views first.</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-2">
+                <h3 class="muted">Behaviour 2</h3>
+                <h2>Share all relevant information</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>Present all inforamtion that you are aware of that will affect how a team solves a
+                            problem or makes a decision.</li>
+                        <li>If everyone pools their knowledge, then the everyone will feel that they have made
+                            a fully informed choice, and will feel accountable to the decision</li>
+                        <li>If someone later reveals information that they knew that contradicts the decision,
+                            trust will be reduced.</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-3">
+                <h3 class="muted">Behaviour 3</h3>
+                <h2>Use specific examples and agree on what important words mean</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>"deploy"?</li>
+                        <li>"production incident"?</li>
+                        <li>"meet at the usual place"?</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-4">
+                <h3 class="muted">Behaviour 4</h3>
+                <h2>Explain reasoning and intent</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>"I'm taking you off project X to work on strategy"</li>
+                        <li>Without context or background, we will make up stories (coherence, system 1)</li>
+                        <li>These stories often distorted and based on fears. </li>
+                        <li>e.g. "I'm underperforming, and I'm being demoted"</li>
+                        <li>Be transparent about what you are thinking, and why.</li>
+                        <li>"I'm really concerned about that our upcoming projects are off base. I need some
+                            safe hands I trust that will set us up in a really good position for next year. Can
+                            you help with the strategy?"</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-5">
+                <h3 class="muted">Behaviour 5</h3>
+                <h2>Focus on interests, not positions</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>"Getting to Yes", by Roger Fisher and William Ury (published 1981)</li>
+                        <li>Focusing steps:
+                            <ul>
+                                <li><b>Identify interests</b>. Ask: "No matter what the solution is, we need to do this
+                                    in a way that..."</li>
+                                <li><b>Clarify and agree on interests</b>. Agree on what important words mean</li>
+                                <li><b>Generate potential solutions that meet the interests</b>. Generative,
+                                    design thinking</li>
+                                <li><b>Select a solution and implement it</b>. Real options. Fast experiments.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-6">
+                <h3 class="muted">Behaviour 6</h3>
+                <h2>Test assumptions and inferences</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>Remember the ladder of inference.</li>
+                        <li>e.g. "You're doing a great job, but the project has been slowing your team down.
+                            I'm going to give the new project to Brenda's team"</li>
+                        <li>What did she really mean? Why is she saying that? You will think of a story that explains
+                            it (system 1)</li>
+                        <li>If the story is a negative one, you will respond in a negative way.</li>
+                        <li>If you test the validity of this story, you practice <b>transparency</b> and
+                            <b>accountability</b> with your thinking, and reveal a <b>curiosity</b>
+                            about what others think.</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-7">
+                <h3 class="muted">Behaviour 7</h3>
+                <h2>Jointly design next steps</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>Given your view and given my view, what sort of experiement should we run?</li>
+                        <li>Turn the Ship Around, by L. David Marquet. Turning followers into leaders</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="behaviour-8">
+                <h3 class="muted">Behaviour 8</h3>
+                <h2>Discuss undiscussable issues</h2>
+                <aside class="notes">
+                    <ul>
+                        <li>We often believe that we can't tell people what we really think</li>
+                        <li>Instead, we ask questions that imply what we mean</li>
+                        <li>People understand you're not being clear, and lose trust</li>
+                        <li>e.g Team of 5: Heather, Carlos, Stan, Lynn, Jim. Heather, Carlos and Stan think
+                            that Jim and Heather are underperforming. If they jointly believe that, but don't
+                            raise the issue, trust and accountability is reduced. Jim and Heather will know that
+                            they are not trusted, and disengage. By raising the issue with the team, everyone
+                            can verify their assumptions and agree on a plan of action (accountability).</li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+        <section>
+            <section id="non-violent-communication">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li>Action Science</li>
+                    <li><strong>Non Violent Communication</strong></li>
+                    <li>5 Secrets of Effective Communication</li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section id="5-secrets-of-effective-communication">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li>Action Science</li>
+                    <li>Non Violent Communication</li>
+                    <li><strong>5 Secrets of Effective Communication</strong></li>
+                    <li>Practicing Interactions</li>
+                </ul>
+            </section>
+        </section>
+        <section>
+            <section id="practicing-interactions">
+                <h2>Topics</h2>
+                <ul>
+                    <li>Biases and Distortions</li>
+                    <li>Action Science</li>
+                    <li>Non Violent Communication</li>
+                    <li>5 Secrets of Effective Communication</li>
+                    <li><strong>Practicing Interactions</strong></li>
+                </ul>
+            </section>
+            <section id="desk-reminders">
+                <h2>Desk Reminders</h2>
+                <img src="images/laminated-card.jpg">
+                <aside class="notes">
+                    <ul>
+                        <li>Source: <a href="https://devblog.timgroup.com/2017/03/02/fieldwork-values/">
+                            TIM Group Dev Blog</a></li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="2-column-case-study">
+                <h2>Two Column Case Study</h2>
+                <img src="images/PaulaAndTed.png">
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+            <section id="practice">
+                <h2>Practice</h2>
+                <img src="images/CaseStudyForm.png">
+                <aside class="notes">
+                    <ul>
+                        <li>...</li>
+                    </ul>
+                </aside>
+            </section>
+        </section>
+        <section>
+            <section id="call-to-action">
+                <h3>We have the option to learn to do better</h3>
+                <h2 class="fragment">What are you going to do?</h2>
+            </section>
+        </section>
+        <section id="fin" class="slide-with-background" data-background-image="images/leia-giving-medals.jpg">
+            <h2>Fin</h2>
+            <p class="fragment">Any questions?</p>
+        </section>
+    </div>
 </div>
-
-<div id="impress">
-
-    <div id="fellowship" class="step slide fellowship" data-x="0" data-y="0">
-        <div class="banner top">
-            <h1>The Fellowship of the Ring</h1>
-            <h2>The Quest for Effective and Happy Teams</h2>
-        </div>
-        <div class="banner bottom">
-            <p class="left">Joe Schmetzer <a href="https://twitter.com/tumbarumba">@tumbarumba</a></p>
-        </div>
-    </div>
-
-    <div id="about-me" class="about-me step slide" data-x="0" data-y="0">
-        <q>About Me</q>
-        <div class="right">
-            <p>Joe Schmetzer</p>
-            <p><a href="https://twitter.com/tumbarumba">@tumbarumba</a></p>
-            <p>Renaissance Developer</p>
-            <p><a href="http://www.exubero.com/joe/">http://www.exubero.com/joe/</a></p>
-        </div>
-        <div class="photo">
-            <img alt="Joe Schmetzer" src="img/Joe.png">
-        </div>
-    </div>
-
-    <div id="about-me-ubs" class="about-me step slide" data-x="0" data-y="0">
-        <q>About Me</q>
-        <div class="right">
-            <p>Joe Schmetzer</p>
-            <p><a href="https://twitter.com/tumbarumba">@tumbarumba</a></p>
-            <p>Renaissance Developer</p>
-            <p><a href="http://www.exubero.com/joe/">http://www.exubero.com/joe/</a></p>
-            <p>Development Lead<br>Securities Operations IT</p>
-        </div>
-        <div class="photo">
-            <img alt="Joe Schmetzer" src="img/Joe.png">
-        </div>
-    </div>
-
-    <div id="mindset-questionnaire" class="step slide mindset-questionnaire" data-x="0" data-y="0">
-        <q>What is your Mindset?</q>
-        <img src="img/MindsetQuestionnaire.png" alt="Mindset Questionnaire">
-    </div>
-
-    <div id="schedule-0" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-0.png" alt="Map - overview">
-    </div>
-
-    <div id="schedule-1" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-1.png" alt="Map - Cognitive Biases">
-    </div>
-
-    <div id="muller-lyer" class="step slide" data-x="0" data-y="0">
-        <h2>Müller-Lyer Illusion</h2>
-        <img src="img/mullerlyer-illusion.gif" alt="Muller-Lyer Illusion">
-    </div>
-
-    <div id="thinking" class="step slide" data-x="0" data-y="0">
-        <q>Thinking, Fast and Slow</q>
-        <img class="right" src="img/thinking-cover.jpg">
-        <ul>
-            <li><strong>System 1</strong>: fast, involuntary, no effort, biased</li>
-            <li><strong>System 2</strong>: slow, voluntary, effortful, lazy</li>
-            <li>Most of what you think and do originates in System 1 with System 2
-                called upon to prevent errors</li>
-            <li>The error prevention sucks</li>
-            <li>This is a major cause of conflict between people</li>
-        </ul>
-    </div>
-
-    <div id="cognitive-biases" class="bias step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-    </div>
-
-    <div id="overconfidence" class="step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-        <ul>
-            <li>Overconfidence</li>
-        </ul>
-    </div>
-
-    <div id="illusion-of-certainty" class="step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-        <ul>
-            <li>Overconfidence</li>
-            <li>Illusion of certainty</li>
-        </ul>
-    </div>
-
-    <div id="illusion-of-asymmetric-insight" class="step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-        <ul>
-            <li>Overconfidence</li>
-            <li>Illusion of certainty</li>
-            <li>Illusion of asymmetric insight</li>
-        </ul>
-    </div>
-
-    <div id="illusion-of-transparency" class="step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-        <ul>
-            <li>Overconfidence</li>
-            <li>Illusion of certainty</li>
-            <li>Illusion of asymmetric insight</li>
-            <li>Illusion of transparency</li>
-        </ul>
-    </div>
-
-    <div id="pro-innovation-bias" class="step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-        <ul>
-            <li>Overconfidence</li>
-            <li>Illusion of certainty</li>
-            <li>Illusion of asymmetric insight</li>
-            <li>Illusion of transparency</li>
-            <li>Pro-innovation bias</li>
-        </ul>
-    </div>
-
-    <div id="more-biases" class="step slide" data-x="0" data-y="0">
-        <h2>Cognitive Biases</h2>
-        <ul>
-            <li>Overconfidence</li>
-            <li>Illusion of certainty</li>
-            <li>Illusion of asymmetric insight</li>
-            <li>Illusion of transparency</li>
-            <li>Pro-innovation bias</li>
-            <li>... and many, many more</li>
-        </ul>
-    </div>
-
-    <div id="schedule-1-end" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-1.png" alt="Map - Cognitive Biases">
-    </div>
-
-    <div id="schedule-2" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-2.png" alt="Map - Agyris's Models">
-    </div>
-
-    <div id="model-1-values" class="step slide" data-x="0" data-y="0">
-        <q>Agyris Model I - Values</q>
-        <ul>
-            <li>Win, don’t lose</li>
-            <li>Be right</li>
-            <li>Minimise expressions of negative feelings</li>
-            <li>Act rational</li>
-        </ul>
-    </div>
-
-    <div id="model-1-assumptions" class="step slide" data-x="0" data-y="0">
-        <q>Agyris Model I - Assumptions</q>
-        <ul>
-            <li>I understand the situation; those who disagree don’t</li>
-            <li>I am right; those who disagree are wrong</li>
-            <li>I have pure motives; those who disagree have questionable motives</li>
-            <li>My feelings and behaviour are justified</li>
-            <li>I am not contributing to the problem</li>
-        </ul>
-    </div>
-
-    <div id="model-1-consequences" class="step slide consequences" data-x="0" data-y="0">
-        <q>Agyris Model I - Consequences</q>
-
-        <div class="right">
-            <strong>Working Relationships</strong>
-            <ul>
-                <li>Lower commitment</li>
-                <li>Decreased trust</li>
-                <li>Reduced learning</li>
-                <li>Greater defensiveness</li>
-                <li>Unproductive conflict</li>
-                <li>Inappropriate dependence on others</li>
-            </ul>
-        </div>
-
-        <strong>Performance:</strong>
-        <ul>
-            <li>Performance</li>
-            <li>Lower-quality decisions</li>
-            <li>Less innovation</li>
-            <li>Longer implementation time</li>
-            <li>Increased costs</li>
-        </ul>
-
-        <strong>Individual Well-Being:</strong>
-        <ul>
-            <li>Reduced motivation</li>
-            <li>Decreased satisfaction</li>
-            <li>Limited development opportunities</li>
-            <li>Increased stress</li>
-        </ul>
-    </div>
-
-    <div id="model-1-consequences-explosion" class="step slide consequences" data-x="0" data-y="0">
-        <q>Agyris Model I - Consequences</q>
-
-        <div class="right">
-            <strong>Working Relationships</strong>
-            <ul>
-                <li>Lower commitment</li>
-                <li>Decreased trust</li>
-                <li>Reduced learning</li>
-                <li>Greater defensiveness</li>
-                <li>Unproductive conflict</li>
-                <li>Inappropriate dependence on others</li>
-            </ul>
-        </div>
-
-        <strong>Performance:</strong>
-        <ul>
-            <li>Performance</li>
-            <li>Lower-quality decisions</li>
-            <li>Less innovation</li>
-            <li>Longer implementation time</li>
-            <li>Increased costs</li>
-        </ul>
-
-        <strong>Individual Well-Being:</strong>
-        <ul>
-            <li>Reduced motivation</li>
-            <li>Decreased satisfaction</li>
-            <li>Limited development opportunities</li>
-            <li>Increased stress</li>
-        </ul>
-    </div>
-
-    <div id="model-2-values" class="step slide" data-x="0" data-y="0">
-        <q>Agyris Model II - Values</q>
-        <ul>
-            <li>Transparency</li>
-            <li>Curiosity</li>
-            <li>Informed choice</li>
-            <li>Accountability</li>
-            <li>Compassion</li>
-        </ul>
-    </div>
-
-    <div id="model-2-assumptions" class="step slide" data-x="0" data-y="0">
-        <q>Agyris Model II - Assumptions</q>
-        <ul>
-            <li>I have information; so do other people</li>
-            <li>Each of us sees things others don’t</li>
-            <li>People may disagree with me and still have pure motives</li>
-            <li>Differences are opportunities for learning</li>
-            <li>I may be contributing to the problem</li>
-        </ul>
-    </div>
-
-    <div id="model-2-consequences" class="step slide consequences" data-x="0" data-y="0">
-        <q>Agyris Model II - Consequences</q>
-        <div class="right">
-            <strong>Working Relationships</strong>
-            <ul>
-                <li>Greater commitment</li>
-                <li>Increased trust</li>
-                <li>Increased learning</li>
-                <li>Reduced defensiveness</li>
-                <li>Productive conflict</li>
-                <li>Appropriate dependence on others</li>
-            </ul>
-        </div>
-
-        <strong>Performance:</strong>
-        <ul>
-            <li>Higher-quality decisions</li>
-            <li>Greater innovation</li>
-            <li>Shorter implementation time</li>
-            <li>Reduced costs</li>
-        </ul>
-
-        <strong>Individual Well-Being:</strong>
-        <ul>
-            <li>Increased motivation</li>
-            <li>Increased satisfaction</li>
-            <li>Richer development opportunities</li>
-            <li>Reduced stress</li>
-        </ul>
-    </div>
-
-    <div id="model-2-consequences-tranquility" class="step slide consequences" data-x="0" data-y="0">
-        <q>Agyris Model II - Consequences</q>
-        <div class="right">
-            <strong>Working Relationships</strong>
-            <ul>
-                <li>Greater commitment</li>
-                <li>Increased trust</li>
-                <li>Increased learning</li>
-                <li>Reduced defensiveness</li>
-                <li>Productive conflict</li>
-                <li>Appropriate dependence on others</li>
-            </ul>
-        </div>
-
-        <strong>Performance:</strong>
-        <ul>
-            <li>Higher-quality decisions</li>
-            <li>Greater innovation</li>
-            <li>Shorter implementation time</li>
-            <li>Reduced costs</li>
-        </ul>
-
-        <strong>Individual Well-Being:</strong>
-        <ul>
-            <li>Increased motivation</li>
-            <li>Increased satisfaction</li>
-            <li>Richer development opportunities</li>
-            <li>Reduced stress</li>
-        </ul>
-    </div>
-
-    <div id="models-compared" class="step slide" data-x="0" data-y="0">
-        <q>Agyris Model I vs Model II</q>
-        <ul>
-            <li>Model I (Unilateral Control) is our default model in use</li>
-            <li>It is better for happiness and productivity to be working towards Model II (Mutual Learning)</li>
-        </ul>
-    </div>
-
-    <div id="mindset-questionnaire-revisited" class="step slide mindset-questionnaire" data-x="0" data-y="0">
-        <q>Mindset Questionnaire Revisited</q>
-        <img src="img/MindsetQuestionnaire.png" alt="Mindset Questionnaire">
-    </div>
-
-    <div id="mindset-questionnaire-models" class="step slide mindset-questionnaire" data-x="0" data-y="0">
-        <q>Mindset Questionnaire Revisited</q>
-        <img src="img/MindsetQuestionnaireModels.png" alt="Mindset Questionnaire">
-    </div>
-
-    <div id="schedule-2-end" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-2.png" alt="Map - Agyris's Models">
-    </div>
-
-    <div id="schedule-3" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-3.png" alt="Map - Two Column Case Study">
-    </div>
-
-    <div id="paula-and-ted" class="step slide paula-and-ted" data-x="0" data-y="0">
-        <q>Paula and Ted</q>
-        <img src="img/PaulaAndTed.png" alt="Paula and Ted dialog">
-        <div class="footnote">
-            <p>from "The Skilled Facilitator", by Roger Schwartz
-            </p>
-        </div>
-    </div>
-
-    <div id="paula-and-ted-review" class="step slide" data-x="0" data-y="0">
-        <q>Paula and Ted Review</q>
-        <ul>
-            <li>What did you see and hear?</li>
-            <li>What were the goals of each character?</li>
-            <li>Who has meetings mostly like this one?</li>
-        </ul>
-    </div>  
-
-    <div id="schedule-3-end" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-3.png" alt="Map - Two Column Case Study">
-    </div>
-
-    <div id="schedule-4" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-4.png" alt="Map - Eight Behaviors for Smarter Teams">
-    </div>
-
-    <div id="eight-behaviours" class="step slide" data-x="0" data-y="0">
-        <q>The Eight Behaviours for Smarter Teams</q>
-        <div class="right">
-            <ol start="5">
-                <li>Focus on interests, not positions</li>
-                <li>Test assumptions and inferences</li>
-                <li>Jointly design next steps</li>
-                <li>Discuss undiscussable issues</li>
-            </ol>
-        </div>
-        <div>
-            <ol>
-                <li>State views and ask genuine questions</li>
-                <li>Share all relevant information</li>
-                <li>Use specific examples and agree on what important words mean</li>
-                <li>Explain reasoning and intent</li>
-            </ol>
-        </div>
-        <div class="footnote">
-            <p>Eight Behaviors for Smarter Teams, Roger Schwartz, 2013<br>
-                <a href="http://www.schwarzassociates.com/resources/articles/">http://www.schwarzassociates.com/resources/articles/</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="paula-and-ted-revisited" class="step slide paula-and-ted" data-x="0" data-y="0">
-        <q>Paula and Ted Revisited</q>
-        <img src="img/PaulaAndTed.png" alt="Paula and Ted dialog">
-        <div class="footnote">
-            <p>from "The Skilled Facilitator", by Roger Schwartz
-            </p>
-        </div>
-    </div>
-
-    <div id="paula-and-ted-revisited-review" class="step slide" data-x="0" data-y="0">
-        <q>Paula and Ted Revisited Review</q>
-        <ul>
-            <li>What did you see and hear?</li>
-            <li>What were the goals of each character?</li>
-            <li>Who has been to a meeting like this?</li>
-            <li>Who wants their meetings to be more like this one?</li>
-        </ul>
-    </div>
-
-    <div id="schedule-4-end" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-4.png" alt="Map - Eight Behaviors for Smarter Teams">
-    </div>
-
-    <div id="schedule-5" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-5.png" alt="Map - Living the Mutual Learning Model">
-    </div>
-
-    <div id="two-column-case-study" class="step slide paula-and-ted" data-x="0" data-y="0">
-        <q>Two Column Case Study Example</q>
-        <img src="img/PaulaAndTed.png" alt="Paula and Ted dialog">
-        <div class="footnote">
-            <p>from "The Skilled Facilitator", by Roger Schwartz
-            </p>
-        </div>
-    </div>
-
-    <div id="two-column-case-study-2" class="step slide paula-and-ted" data-x="0" data-y="0">
-        <q>Two Column Case Study Practice</q>
-        <img src="img/CaseStudyForm.png" alt="Case Study Form">
-        <div class="footnote">
-            <p>from "Frustrated, It is probably your fault", by Jeffrey Fredrick<br>
-                <a href="http://blog.jeffreyfredrick.com/2015/06/25/slides-frustrated-it-is-probably-your-fault/">http://blog.jeffreyfredrick.com/2015/06/25/slides-frustrated-it-is-probably-your-fault/</a>
-            </p>
-        </div>
-    </div>
-
-    <div id="end-reflection" class="step slide" data-x="0" data-y="0">
-        <q>Reflection: What did we learn?</q>
-        <ul>
-            <li>Unconcious biases make us often wrong</li>
-            <li>Unconcious biases make think we're right</li>
-            <li>... which causes conflict and trust problems</li>
-            <li>Agyris's Model I and Model II help us understand the situation</li>
-            <li>Schwarz's Eight Behaviours help us overcome our biases</li>
-            <li>We need to practice!</li>
-        </ul>
-    </div>
-
-    <div id="schedule-5-end" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-5.png" alt="Map - Living the Mutual Learning Model">
-    </div>
-
-    <div id="schedule-6" class="step slide schedule" data-x="0" data-y="0">
-        <img src="img/middle-earth-journey-6.png" alt="Map - Living the Mutual Learning Model">
-    </div>
-
-    <div id="learn-more" class="step slide" data-x="0" data-y="0">
-        <q>Want to Learn More?</q>
-
-        <p>This talk!<br>
-        <a href="http://tumbarumba.github.io/fellowship-of-the-ring/">http://tumbarumba.github.io/fellowship-of-the-ring</a></p>
-        
-        <p>London Action Science Meetup Group
-        <a href="http://www.meetup.com/London-Action-Science-Meetup/">http://www.meetup.com/London-Action-Science-Meetup/</a></p>
-
-        <p>Eight Behaviours for Smarter Teams (free download)
-            <a href="http://www.schwarzassociates.com/resources/articles/">http://www.schwarzassociates.com/resources/articles/</a></p>
-
-        <p>Smart Leaders Smarter Teams by Roger Schwarz</p>
-
-        <p>More about Action Science <a href="http://www.actionscience.com/actinq.htm">http://www.actionscience.com/actinq.htm</a></p>
-
-        <p>Amy Cuddy's Power Pose Ted talk <a href="https://www.ted.com/talks/amy_cuddy_your_body_language_shapes_who_you_are">https://www.ted.com/talks/
-            amy_cuddy_your_body_language_shapes_who_you_are</a></p>
-    </div>
-
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-    </div>
-
-</div>
-
-<script src="js/impress.js"></script>
-<script>impress().init();</script>
-
+<script src="reveal.js/lib/js/head.min.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
+<script>
+        Reveal.initialize({
+            controls: false,
+            progress: true,
+            history: true,
+            center: true,
+
+            transition: 'fade',
+            backgroundTransition: 'fade',
+            controlsLayout: 'edges',
+
+            // Optional reveal.js plugins
+            dependencies: [
+                { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+                { src: 'reveal.js/plugin/notes/notes.js', async: true }
+            ]
+        });
+    </script>
 </body>
 </html>
